@@ -18,6 +18,6 @@ The analysis is to tidy up and summarise the raw dataset by each activity and ea
 3. Populate dataset follow Project's requirements
 4. Write result dataset to `ProjData\summarised_dataset.txt`
 
-##To run `run_analysis.R` at command line
-$ Rscript run_analysis.R
+##To run `run_analysis.R` at command line (for Windows)
+$ "C:\Program Files\R\R-3.2.3\bin\Rscript.exe"' run_analysis.R
 

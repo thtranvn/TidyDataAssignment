@@ -19,13 +19,12 @@ The analysis is to tidy up and summarise the raw dataset by each activity and ea
 4. Write result dataset to `.\ProjData\summarised_dataset.txt`
 
 ##To run `run_analysis.R` at command line (for Windows):
-> "C:\Program Files\R\R-3.2.3\bin\Rscript.exe"' run_analysis.R
+    > "C:\Program Files\R\R-3.2.3\bin\Rscript.exe"' run_analysis.R
 
 ##Open RGui or RStudio to view result dataset
-R> result <- read.table("./ProjData/summarised_dataset.txt", header=TRUE, check.names=FALSE)
 
-R> names(result)
- 
-R> head(result[, 1:6], n=5)
+    R> result <- read.table("./ProjData/summarised_dataset.txt", header=TRUE, check.names=FALSE)
+    R> names(result)
+    R> head(result[, 1:6], n=5)
 
 

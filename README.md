@@ -20,7 +20,9 @@ The analysis is to tidy up and summarise the raw dataset by each activity and ea
 
 ###Execute `run_analysis.R` at command line:
 For example to run the script in Windows OS
+
     > "C:\Program Files\R\R-3.2.3\bin\Rscript.exe"' run_analysis.R
+
 or open the file in RGui or RStudio and execute it
 
 ###Open RGui or RStudio to view result dataset

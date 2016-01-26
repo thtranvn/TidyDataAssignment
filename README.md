@@ -16,8 +16,14 @@ The analysis is to tidy up and summarise the raw dataset by each activity and ea
 1. Download dataset from [this source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to `ProjData` directory.
 2. Read data.
 3. Populate dataset follow Project's requirements
-4. Write result dataset to `ProjData\summarised_dataset.txt`
+4. Write result dataset to `.\ProjData\summarised_dataset.txt`
 
-##To run `run_analysis.R` at command line (for Windows)
-$ "C:\Program Files\R\R-3.2.3\bin\Rscript.exe"' run_analysis.R
+##To run `run_analysis.R` at command line (for Windows):
+> $ "C:\Program Files\R\R-3.2.3\bin\Rscript.exe"' run_analysis.R
+
+##Open RGui or RStudio to view result dataset
+> result <- read.table("./ProjData/summarised_dataset.txt", header=TRUE)
+> names(result)
+> head(result[, 1:6], n=5)
+
 

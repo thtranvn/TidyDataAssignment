@@ -15,7 +15,7 @@ The analysis is to tidy up and summarise the raw dataset by each activity and ea
 ###The script `run_analysis.R` to do
 1. Download dataset from [this source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to `ProjData` directory.
 2. Read data.
-3. Populate dataset follow Project's requirements
+3. Populate dataset follow requirements
 4. Write result dataset to `.\ProjData\summarised_dataset.txt`
 
 ###To run `run_analysis.R` at command line (for Windows):

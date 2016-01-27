@@ -13,10 +13,11 @@ The analysis is to tidy up and summarise the raw dataset by each activity and ea
 - `CodeBook.md`: describes the variables, the data and transformation that `run_analysis.R` script perform.
  
 ###The script `run_analysis.R` to do
-1. Download dataset from [this source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to `ProjData` directory.
-2. Read data.
-3. Populate dataset follow requirements
-4. Write result dataset to `.\ProjData\summarised_dataset.txt`
+1. It requires `dplyr` package
+2. Download dataset from [this source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to `ProjData` directory.
+3. Read data.
+4. Populate dataset follow requirements
+5. Write result dataset to `.\ProjData\summarised_dataset.txt`
 
 ###Execute `run_analysis.R` at command line:
 For example to run the script in Windows OS

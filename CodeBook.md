@@ -73,4 +73,15 @@ This project requires to produce the average of each variable for each activity 
 [67] "Frequency - Body Gyroscope Jerk Magnitute - Mean"                 
 [68] "Frequency - Body Gyroscope Jerk Magnitute - Standard Deviation" 
 
-###
+###`run_analysis.R` script to do
+* Load package `dplyr`
+* Download data zip file from internet to `ProjData` directory
+* Read test and train datasets from the data zip file
+* Read features file (variables name), activities file, subject file
+* Filter only variables with mean and standard deviation 
+* Join data files: data, activity and subject for test and train 
+* Merge test and train datasets
+* Populate variable by using descriptive names
+* Group dataset with average of each variable for each activity and each subject
+* Print out the result to `summarised_dataset.txt` file in `ProjData` directory
+* 

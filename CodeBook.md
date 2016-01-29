@@ -1,8 +1,8 @@
 ##Code Book
-The experiments have been carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+
 The measurements selected for the original database come from the accelerometer and gyroscope 3-axial raw signals. The acceleration signal was then separated into body and gravity acceleration signals. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals.
 
-This project requires to produce the average of each variable for each activity and each subject (volunteer).
+This assignment requires to produce the average of each variable for each activity and each subject (volunteer).
 ####List of variables in the final dataset:
  [1] "Activity"                                                         
  [2] "Subject"                                                          
@@ -84,4 +84,3 @@ This project requires to produce the average of each variable for each activity 
 * Populate variable by using descriptive names
 * Group dataset with average of each variable for each activity and each subject
 * Print out the result to `summarised_dataset.txt` file in `ProjData` directory
-* 
